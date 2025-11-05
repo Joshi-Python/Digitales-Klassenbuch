@@ -104,3 +104,23 @@ Dieser Assistent hilft bei der Verwaltung der Notenliste.
 
 Die Befehle gibt man unten in das Eingabefeld ein; mit **„Senden“** werden sie auf die Notenliste angewendet.
 
+```bash
+# 1) venv anlegen
+python -m venv .venv
+
+# 2) aktivieren
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+# 3) Abhängigkeiten installieren
+python -m pip install --upgrade pip
+pip install PyQt5
+
+
+##  Starten
+```bash
+python main.py
+````
+
